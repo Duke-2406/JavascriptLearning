@@ -93,7 +93,7 @@
 // }
 // console.log(highestele)
 
-let arr = [1,4,9,4,5,1,4,3,7,1]
+// let arr = [1,4,9,4,5,1,4,3,7,1]
 // we need to sort this array
 
 // [1,4,4,9,5,1,4,3]
