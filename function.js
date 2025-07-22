@@ -33,24 +33,30 @@ console.log(multiplication(2,4))
 // console.log(typeof(result))
 
 
-const day = {
-    firstday : "monday"
-}
+// const day = {
+//     firstday : "monday"
+// }
 
-console.log(day.firstday)
-day.seconday = "tuesday"
+// console.log(day.firstday)
+// day.seconday = "tuesday"
 
-console.log(day)
+// console.log(day)
 
 
 // question : check whether the given string is palindrome or not ?
 
 function isPanlindrome(str){
-    
+    for(let i=0; i<(str.length)/2 ; i++){
+        if(str[i] != str[(str.length) - i -1]){
+            return false
+        }
+    }
+    return true
 }
 
-let resutl = isPanlindrome("kanak")
-console.log(resutl)
+let result = isPanlindrome("abcaba")
+
+console.log(result)
 
 
 
